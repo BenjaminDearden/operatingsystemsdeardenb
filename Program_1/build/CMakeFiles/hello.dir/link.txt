@@ -1,0 +1,1 @@
+/usr/bin/c89-gcc -g CMakeFiles/hello.dir/source.c.o -o hello 
