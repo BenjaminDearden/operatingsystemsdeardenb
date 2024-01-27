@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/ProgramOne.dir/source.c.o -o ProgramOne 
