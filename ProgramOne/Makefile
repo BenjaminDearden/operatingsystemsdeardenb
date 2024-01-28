@@ -129,6 +129,54 @@ ProgramOne.exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgramOne.exe.dir/build.make CMakeFiles/ProgramOne.exe.dir/build
 .PHONY : ProgramOne.exe/fast
 
+linked.o: linked.c.o
+.PHONY : linked.o
+
+# target to build an object file
+linked.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgramOne.exe.dir/build.make CMakeFiles/ProgramOne.exe.dir/linked.c.o
+.PHONY : linked.c.o
+
+linked.i: linked.c.i
+.PHONY : linked.i
+
+# target to preprocess a source file
+linked.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgramOne.exe.dir/build.make CMakeFiles/ProgramOne.exe.dir/linked.c.i
+.PHONY : linked.c.i
+
+linked.s: linked.c.s
+.PHONY : linked.s
+
+# target to generate assembly for a file
+linked.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgramOne.exe.dir/build.make CMakeFiles/ProgramOne.exe.dir/linked.c.s
+.PHONY : linked.c.s
+
+queue.o: queue.c.o
+.PHONY : queue.o
+
+# target to build an object file
+queue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgramOne.exe.dir/build.make CMakeFiles/ProgramOne.exe.dir/queue.c.o
+.PHONY : queue.c.o
+
+queue.i: queue.c.i
+.PHONY : queue.i
+
+# target to preprocess a source file
+queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgramOne.exe.dir/build.make CMakeFiles/ProgramOne.exe.dir/queue.c.i
+.PHONY : queue.c.i
+
+queue.s: queue.c.s
+.PHONY : queue.s
+
+# target to generate assembly for a file
+queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgramOne.exe.dir/build.make CMakeFiles/ProgramOne.exe.dir/queue.c.s
+.PHONY : queue.c.s
+
 source.o: source.c.o
 .PHONY : source.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgramOne.exe"
+	@echo "... linked.o"
+	@echo "... linked.i"
+	@echo "... linked.s"
+	@echo "... queue.o"
+	@echo "... queue.i"
+	@echo "... queue.s"
 	@echo "... source.o"
 	@echo "... source.i"
 	@echo "... source.s"

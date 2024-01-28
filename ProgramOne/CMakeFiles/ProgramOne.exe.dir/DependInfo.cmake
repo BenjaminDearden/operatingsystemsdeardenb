@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/deardenb/operatingsystemsdeardenb/ProgramOne/linked.c" "CMakeFiles/ProgramOne.exe.dir/linked.c.o" "gcc" "CMakeFiles/ProgramOne.exe.dir/linked.c.o.d"
+  "/home/deardenb/operatingsystemsdeardenb/ProgramOne/queue.c" "CMakeFiles/ProgramOne.exe.dir/queue.c.o" "gcc" "CMakeFiles/ProgramOne.exe.dir/queue.c.o.d"
   "/home/deardenb/operatingsystemsdeardenb/ProgramOne/source.c" "CMakeFiles/ProgramOne.exe.dir/source.c.o" "gcc" "CMakeFiles/ProgramOne.exe.dir/source.c.o.d"
   )
 

@@ -1,4 +1,8 @@
 {
     "C_Cpp.errorSquiggles": "enabled",
-    "cmake.sourceDirectory": "/home/deardenb/operatingsystemsdeardenb/ProgramOne"
+    "cmake.sourceDirectory": "/home/deardenb/operatingsystemsdeardenb/ProgramOne",
+    "cmake.configureOnOpen": true,
+    "cmake.configureSettings": {
+        
+    }
 }

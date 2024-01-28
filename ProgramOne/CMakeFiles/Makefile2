@@ -81,12 +81,12 @@ clean: CMakeFiles/ProgramOne.exe.dir/clean
 CMakeFiles/ProgramOne.exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgramOne.exe.dir/build.make CMakeFiles/ProgramOne.exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgramOne.exe.dir/build.make CMakeFiles/ProgramOne.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/deardenb/operatingsystemsdeardenb/ProgramOne/CMakeFiles --progress-num=1,2 "Built target ProgramOne.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/deardenb/operatingsystemsdeardenb/ProgramOne/CMakeFiles --progress-num=1,2,3,4 "Built target ProgramOne.exe"
 .PHONY : CMakeFiles/ProgramOne.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ProgramOne.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/deardenb/operatingsystemsdeardenb/ProgramOne/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/deardenb/operatingsystemsdeardenb/ProgramOne/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ProgramOne.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/deardenb/operatingsystemsdeardenb/ProgramOne/CMakeFiles 0
 .PHONY : CMakeFiles/ProgramOne.exe.dir/rule

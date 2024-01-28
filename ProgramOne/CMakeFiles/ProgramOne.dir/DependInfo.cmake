@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/deardenb/operatingsystemsdeardenb/ProgramOne/source.c" "CMakeFiles/ProgramOne.dir/source.c.o" "gcc" "CMakeFiles/ProgramOne.dir/source.c.o.d"
+  "/home/deardenb/operatingsystemsdeardenb/ProgramOne/queue.c" "CMakeFiles/ProgramOne.dir/queue.c.o" "gcc" "CMakeFiles/ProgramOne.dir/queue.c.o.d"
   )
 
 # Targets to which this target links.

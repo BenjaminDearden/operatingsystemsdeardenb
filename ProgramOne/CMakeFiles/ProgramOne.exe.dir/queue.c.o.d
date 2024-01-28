@@ -1,6 +1,8 @@
-CMakeFiles/ProgramOne.exe.dir/source.c.o: \
- /home/deardenb/operatingsystemsdeardenb/ProgramOne/source.c \
- /usr/include/stdc-predef.h /usr/include/stdio.h \
+CMakeFiles/ProgramOne.exe.dir/queue.c.o: \
+ /home/deardenb/operatingsystemsdeardenb/ProgramOne/queue.c \
+ /usr/include/stdc-predef.h \
+ /home/deardenb/operatingsystemsdeardenb/ProgramOne/queue.h \
+ /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -47,9 +49,4 @@ CMakeFiles/ProgramOne.exe.dir/source.c.o: \
  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h \
- /home/deardenb/operatingsystemsdeardenb/ProgramOne/queue.h \
- /home/deardenb/operatingsystemsdeardenb/ProgramOne/linked.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h

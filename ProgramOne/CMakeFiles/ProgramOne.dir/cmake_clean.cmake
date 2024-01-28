@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgramOne.dir/source.c.o"
-  "CMakeFiles/ProgramOne.dir/source.c.o.d"
+  "CMakeFiles/ProgramOne.dir/queue.c.o"
+  "CMakeFiles/ProgramOne.dir/queue.c.o.d"
   "ProgramOne"
   "ProgramOne.pdb"
 )

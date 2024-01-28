@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ProgramOne.exe.dir/linked.c.o"
+  "CMakeFiles/ProgramOne.exe.dir/linked.c.o.d"
+  "CMakeFiles/ProgramOne.exe.dir/queue.c.o"
+  "CMakeFiles/ProgramOne.exe.dir/queue.c.o.d"
   "CMakeFiles/ProgramOne.exe.dir/source.c.o"
   "CMakeFiles/ProgramOne.exe.dir/source.c.o.d"
   "ProgramOne.exe"
