@@ -1,19 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct node {
+typedef struct Node {
     int val;
-    struct node * next;
+    struct Node * next;
 
-} node_t;
+} Node;
 
-void print_list(node_t * head);
+void print_list(Node * head);
 
-node_t* newNode(int data);
+Node* newNode(int data);
 
 /*
 Linked list C implementation taken from https://www.learn-c.org/en/Linked_lists
 */
-void enqueueLink(node_t** front, node_t** rear, int data);\
+void enqueueLink(Node** front, Node** rear, int data);\
 
-void readFileToList(node_t* node, char* filename);
+void readFileToList(Node* Node, char* filename);
+
+void pushNode(Node** top, int val);
+
+void printNodeList(Node* node);

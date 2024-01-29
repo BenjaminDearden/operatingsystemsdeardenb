@@ -22,6 +22,8 @@ void enqueue(struct Queue* queue, int item);
 Queue* readFileToQueue(Queue* queue, char* filename);
 
 void printQueue(Queue* queue);
+
+void insertListSort(int* list, int* size, int val);
 /*
 Queue implementation inspired by code found here: https://www.geeksforgeeks.org/introduction-and-array-implementation-of-queue/
 */
