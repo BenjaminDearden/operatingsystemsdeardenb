@@ -1,3 +1,0 @@
-/home/deardenb/operatingsystemsdeardenb/home/deardenb/operatingsystemsdeardenb/ProgramOne/CMakeFiles/ProgramOne.exe.dir
-/home/deardenb/operatingsystemsdeardenb/home/deardenb/operatingsystemsdeardenb/ProgramOne/CMakeFiles/edit_cache.dir
-/home/deardenb/operatingsystemsdeardenb/home/deardenb/operatingsystemsdeardenb/ProgramOne/CMakeFiles/rebuild_cache.dir
