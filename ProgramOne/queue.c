@@ -30,37 +30,8 @@ void enqueue(struct Queue* queue, int item){
     //printf("%d enqueued to queue\n", item);
 }
 
-Queue* readFileToQueue(Queue* queue, char* filename){
-    FILE* file = fopen(filename, "r");
-    int num;
-    printf("function entered\n");
-    if (file == NULL){
-        printf("Error file not opened\n");
-        return NULL;
-    }
 
-    while(fscanf(file, "%d", &num) == 1){
-        enqueue(queue, num);
-        printf("Enqueued %d \n", num);
-    }
 
-    fclose(file);
-    return queue;
-}
-
-void printQueue(Queue* queue){
-    
-    printf("QUEUE CONTENTS: \n");
-    printf("%d ", queue->front);
-    /*
-    while(queue->size != 0){
-        printf("%d " , queue->front);
-        queue->size = queue->size - 1;
-    }
-    */
-    printf("\n");
-    
-}
 
 void insertListSort(int* list, int* size, int val){
     int i;
@@ -71,7 +42,7 @@ void insertListSort(int* list, int* size, int val){
     }
 
     for(int j = *size; j > i; j--) {
-        list[j] = list[j -1 ];
+        list[j] = list[j - 1];
     }
 
     list[i] = val;

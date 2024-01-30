@@ -8,19 +8,16 @@ int main(int argc, char* argv[])
 {
     //Initiliaze variables
     FILE* fptr;
-    char line[100];
     char str[] = ".txt";
     char* fileName;
-    Node* linkedList;
-    //Intiliaze linked list node for queue and stack
-    Node* front = NULL;
-    Node* rear = NULL;
-    Node* top = NULL;
-    //Initiliaze empty array for sorted list
-    int* list = (int*)malloc(sizeof(int) * 1000);
+    //Intiliaze linked list nodes for queue and stack
+    Node* front = NULL; //Linked-list front node for the queue 
+    Node* rear = NULL;  //Linked list rear node for the queue
+    Node* top = NULL;   //Linked list node for top of stack
+    int* listToSort = (int*)malloc(sizeof(int) * 1000);  //Initiliaze empty array for sorted list using a pointer
     int size = 0;
 
-    for(int i = 0; i < argc; i++){
+    for(int i = 0; i < argc; i++){ // Find file name within command line input
         char *ptr = strstr(argv[i], str);
         if(ptr != NULL){
             fileName = argv[i]; 
@@ -29,7 +26,7 @@ int main(int argc, char* argv[])
 
     }
 
-    fptr = fopen(fileName, "r"); 
+    fptr = fopen(fileName, "r"); //Check for file open success/failure
     if (fptr == NULL){
         printf("File not found. \n");
         return 1;
@@ -37,13 +34,13 @@ int main(int argc, char* argv[])
     else{
         printf("File Opened!\n");
     }
-    //fclose(fptr);
+    
     //Scan file and put contents into the data structures
-    int data;
-    while (fscanf(fptr, "%d", &data) != EOF){
-        enqueueLink(&front, &rear, data);
-        pushNode(&top, data);
-        insertListSort(list, &size, data);
+    int value;
+    while (fscanf(fptr, "%d", &value) != EOF){
+        enqueueLink(&front, &rear, value);
+        pushNode(&top, value);
+        insertListSort(listToSort, &size, value);
     }
     fclose(fptr);
     printf("QUEUE CONTENTES:\n");
@@ -52,15 +49,9 @@ int main(int argc, char* argv[])
     printNodeList(top);
     printf("LIST CONTENTS:\n");
     for(int i = 0; i < size; i++){
-        printf("%d ", list[i]);
+        printf("%d ", listToSort[i]);
     }
     printf("\n");
-
-    /*Queue* newQ = createQueue(1000);    
-    newQ = readFileToQueue(newQ, fileName);
-    printQueue(newQ);
-    readFileToList(linkedList, fileName);
-    */
 
     return 0;
 }

@@ -15,14 +15,6 @@ int isFull(struct Queue* queue);
 
 int isEmpty(struct Queue* queue);
 
-void enqueue(struct Queue* queue, int item);
-/// @brief Reads file contents into queue
-/// @param queue queue to fill
-/// @param filename name of file with contents
-Queue* readFileToQueue(Queue* queue, char* filename);
-
-void printQueue(Queue* queue);
-
 void insertListSort(int* list, int* size, int val);
 /*
 Queue implementation inspired by code found here: https://www.geeksforgeeks.org/introduction-and-array-implementation-of-queue/
