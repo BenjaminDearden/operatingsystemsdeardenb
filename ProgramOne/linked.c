@@ -2,15 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void print_list(Node * head){
-    Node * current = head;
-
-    while(current != NULL){
-        printf("%d\n", current->val);
-        current = current->next;
-    }
-}
-
 
 Node* newNode(int data){
 
@@ -42,23 +33,4 @@ void enqueueLink(Node** front, Node** rear, int data){
     }
     (*rear)->next = Node;
     *rear = Node;
-}
-
-void readFileToList(Node* Node, char* filename){
-    FILE* file = fopen(filename , "r");
-    int num;
-    if(file == NULL){
-        printf("Error file not opened\n");
-        return; 
-    }
-    else{
-        printf("file opened!\n");
-    }
-    while(fscanf(file, "%d", &num) == 1){
-        printf("scanning\n");
-        newNode(num);
-        printf("New Node added with val %d\n", Node->val);
-    }
-    fclose(file);
-    return;
 }

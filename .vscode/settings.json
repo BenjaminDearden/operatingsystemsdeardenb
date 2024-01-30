@@ -4,5 +4,8 @@
     "cmake.configureOnOpen": true,
     "cmake.configureSettings": {
         
+    },
+    "files.associations": {
+        "stdlib.h": "c"
     }
 }
