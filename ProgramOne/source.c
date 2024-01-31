@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "queue.h"
+#include "list.h"
 #include "linked.h"
 
 int main(int argc, char* argv[])
@@ -43,7 +43,7 @@ int main(int argc, char* argv[])
         insertListSort(listToSort, &size, value);
     }
     fclose(fptr);
-    printf("QUEUE CONTENTES:\n");
+    printf("QUEUE CONTENTS:\n");
     printNodeList(front);
     printf("STACK CONTENTS:\n");
     printNodeList(top);

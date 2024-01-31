@@ -83,19 +83,19 @@ CMakeFiles/ProgramOne.exe.dir/source.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ProgramOne.exe.dir/source.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/deardenb/operatingsystemsdeardenb/ProgramOne/source.c -o CMakeFiles/ProgramOne.exe.dir/source.c.s
 
-CMakeFiles/ProgramOne.exe.dir/queue.c.o: CMakeFiles/ProgramOne.exe.dir/flags.make
-CMakeFiles/ProgramOne.exe.dir/queue.c.o: queue.c
-CMakeFiles/ProgramOne.exe.dir/queue.c.o: CMakeFiles/ProgramOne.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deardenb/operatingsystemsdeardenb/ProgramOne/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ProgramOne.exe.dir/queue.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ProgramOne.exe.dir/queue.c.o -MF CMakeFiles/ProgramOne.exe.dir/queue.c.o.d -o CMakeFiles/ProgramOne.exe.dir/queue.c.o -c /home/deardenb/operatingsystemsdeardenb/ProgramOne/queue.c
+CMakeFiles/ProgramOne.exe.dir/list.c.o: CMakeFiles/ProgramOne.exe.dir/flags.make
+CMakeFiles/ProgramOne.exe.dir/list.c.o: list.c
+CMakeFiles/ProgramOne.exe.dir/list.c.o: CMakeFiles/ProgramOne.exe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deardenb/operatingsystemsdeardenb/ProgramOne/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ProgramOne.exe.dir/list.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ProgramOne.exe.dir/list.c.o -MF CMakeFiles/ProgramOne.exe.dir/list.c.o.d -o CMakeFiles/ProgramOne.exe.dir/list.c.o -c /home/deardenb/operatingsystemsdeardenb/ProgramOne/list.c
 
-CMakeFiles/ProgramOne.exe.dir/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ProgramOne.exe.dir/queue.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/deardenb/operatingsystemsdeardenb/ProgramOne/queue.c > CMakeFiles/ProgramOne.exe.dir/queue.c.i
+CMakeFiles/ProgramOne.exe.dir/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ProgramOne.exe.dir/list.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/deardenb/operatingsystemsdeardenb/ProgramOne/list.c > CMakeFiles/ProgramOne.exe.dir/list.c.i
 
-CMakeFiles/ProgramOne.exe.dir/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ProgramOne.exe.dir/queue.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/deardenb/operatingsystemsdeardenb/ProgramOne/queue.c -o CMakeFiles/ProgramOne.exe.dir/queue.c.s
+CMakeFiles/ProgramOne.exe.dir/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ProgramOne.exe.dir/list.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/deardenb/operatingsystemsdeardenb/ProgramOne/list.c -o CMakeFiles/ProgramOne.exe.dir/list.c.s
 
 CMakeFiles/ProgramOne.exe.dir/linked.c.o: CMakeFiles/ProgramOne.exe.dir/flags.make
 CMakeFiles/ProgramOne.exe.dir/linked.c.o: linked.c
@@ -114,14 +114,14 @@ CMakeFiles/ProgramOne.exe.dir/linked.c.s: cmake_force
 # Object files for target ProgramOne.exe
 ProgramOne_exe_OBJECTS = \
 "CMakeFiles/ProgramOne.exe.dir/source.c.o" \
-"CMakeFiles/ProgramOne.exe.dir/queue.c.o" \
+"CMakeFiles/ProgramOne.exe.dir/list.c.o" \
 "CMakeFiles/ProgramOne.exe.dir/linked.c.o"
 
 # External object files for target ProgramOne.exe
 ProgramOne_exe_EXTERNAL_OBJECTS =
 
 ProgramOne.exe: CMakeFiles/ProgramOne.exe.dir/source.c.o
-ProgramOne.exe: CMakeFiles/ProgramOne.exe.dir/queue.c.o
+ProgramOne.exe: CMakeFiles/ProgramOne.exe.dir/list.c.o
 ProgramOne.exe: CMakeFiles/ProgramOne.exe.dir/linked.c.o
 ProgramOne.exe: CMakeFiles/ProgramOne.exe.dir/build.make
 ProgramOne.exe: CMakeFiles/ProgramOne.exe.dir/link.txt

@@ -1,0 +1,3 @@
+/home/deardenb/operatingsystemsdeardenb/ProgramOneC++/CMakeFiles/ProgramOneC++.dir
+/home/deardenb/operatingsystemsdeardenb/ProgramOneC++/CMakeFiles/edit_cache.dir
+/home/deardenb/operatingsystemsdeardenb/ProgramOneC++/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/deardenb/operatingsystemsdeardenb/home/deardenb/operatingsystemsdeardenb/ProgramOne",
+  "command": "/usr/bin/c89-gcc   -g -o CMakeFiles/ProgramOne.exe.dir/source.c.o -c /home/deardenb/operatingsystemsdeardenb/ProgramOne/source.c",
+  "file": "/home/deardenb/operatingsystemsdeardenb/ProgramOne/source.c"
+},
+{
+  "directory": "/home/deardenb/operatingsystemsdeardenb/home/deardenb/operatingsystemsdeardenb/ProgramOne",
+  "command": "/usr/bin/c89-gcc   -g -o CMakeFiles/ProgramOne.exe.dir/list.c.o -c /home/deardenb/operatingsystemsdeardenb/ProgramOne/list.c",
+  "file": "/home/deardenb/operatingsystemsdeardenb/ProgramOne/list.c"
+},
+{
+  "directory": "/home/deardenb/operatingsystemsdeardenb/home/deardenb/operatingsystemsdeardenb/ProgramOne",
+  "command": "/usr/bin/c89-gcc   -g -o CMakeFiles/ProgramOne.exe.dir/linked.c.o -c /home/deardenb/operatingsystemsdeardenb/ProgramOne/linked.c",
+  "file": "/home/deardenb/operatingsystemsdeardenb/ProgramOne/linked.c"
+}
+]

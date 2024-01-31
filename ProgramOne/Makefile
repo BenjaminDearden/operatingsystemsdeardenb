@@ -153,29 +153,29 @@ linked.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgramOne.exe.dir/build.make CMakeFiles/ProgramOne.exe.dir/linked.c.s
 .PHONY : linked.c.s
 
-queue.o: queue.c.o
-.PHONY : queue.o
+list.o: list.c.o
+.PHONY : list.o
 
 # target to build an object file
-queue.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgramOne.exe.dir/build.make CMakeFiles/ProgramOne.exe.dir/queue.c.o
-.PHONY : queue.c.o
+list.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgramOne.exe.dir/build.make CMakeFiles/ProgramOne.exe.dir/list.c.o
+.PHONY : list.c.o
 
-queue.i: queue.c.i
-.PHONY : queue.i
+list.i: list.c.i
+.PHONY : list.i
 
 # target to preprocess a source file
-queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgramOne.exe.dir/build.make CMakeFiles/ProgramOne.exe.dir/queue.c.i
-.PHONY : queue.c.i
+list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgramOne.exe.dir/build.make CMakeFiles/ProgramOne.exe.dir/list.c.i
+.PHONY : list.c.i
 
-queue.s: queue.c.s
-.PHONY : queue.s
+list.s: list.c.s
+.PHONY : list.s
 
 # target to generate assembly for a file
-queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgramOne.exe.dir/build.make CMakeFiles/ProgramOne.exe.dir/queue.c.s
-.PHONY : queue.c.s
+list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgramOne.exe.dir/build.make CMakeFiles/ProgramOne.exe.dir/list.c.s
+.PHONY : list.c.s
 
 source.o: source.c.o
 .PHONY : source.o
@@ -213,9 +213,9 @@ help:
 	@echo "... linked.o"
 	@echo "... linked.i"
 	@echo "... linked.s"
-	@echo "... queue.o"
-	@echo "... queue.i"
-	@echo "... queue.s"
+	@echo "... list.o"
+	@echo "... list.i"
+	@echo "... list.s"
 	@echo "... source.o"
 	@echo "... source.i"
 	@echo "... source.s"

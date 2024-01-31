@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ProgramOneC++.dir/source.cpp.o CMakeFiles/ProgramOneC++.dir/queueFunc.cpp.o CMakeFiles/ProgramOneC++.dir/stackFunc.cpp.o CMakeFiles/ProgramOneC++.dir/linkedFunc.cpp.o -o ProgramOneC++ 
