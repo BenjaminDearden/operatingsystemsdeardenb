@@ -1,1 +1,0 @@
-/usr/bin/c89-gcc -g CMakeFiles/ProgramOne.exe.dir/source.c.o CMakeFiles/ProgramOne.exe.dir/list.c.o CMakeFiles/ProgramOne.exe.dir/linked.c.o -o ProgramOne.exe 
