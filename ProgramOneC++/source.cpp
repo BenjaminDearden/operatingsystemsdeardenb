@@ -23,7 +23,10 @@ int main(int argc, char* argv[]){
     ifstream file (argv[1]); //Variable for filename taken from command line argument
     string str; //Temp variable for string to int conversion
     int hold; //Temp variable for pushing integer into each container
-   
+       if(file.fail()){
+        cout << "File not found! \nTry again!" << endl;
+        return 0;
+    }
     while(!file.eof()){ //Reads file and pushes numbers into each container
         getline(file, str);
         hold = stoi(str);
