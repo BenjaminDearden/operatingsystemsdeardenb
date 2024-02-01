@@ -1,3 +1,8 @@
+Benjamin Dearden
+Operating Systems EECE 4811
+Individual Program One
+1/31/2024
+
 To build and run this program, launch a terminal window in the same path as the source file.
 run the following commands: 
 cmake ../ProgramOneC++
