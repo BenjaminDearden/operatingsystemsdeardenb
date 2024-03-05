@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.22)
+project(ProgramTwo)
+add_executable(barrier barrier.c)
+add_executable(forkjoin fork-join.c)
+add_executable(rendezvous rendezvous.c)
